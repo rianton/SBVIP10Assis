@@ -23,12 +23,12 @@ else:
 #owner.login(token="token")
 #owner.loginResult()
     
-#vipro = VIPRO.LINE()
-#vipro.login(token="token")
-#vipro.loginResult()
+vipro = VIPRO.LINE()
+vipro.login(token="token")
+vipro.loginResult()
 
 ki = VIPRO.LINE()
-ki.login(token="EsiQtk79w4wrjvyupPx7.i9Bg/51omKwkeRUFi/fEHW.gOP61/5TCdFZop0Qe1Q9YKg/FGFOq70wdTADjn+U0E8=")
+ki.login(token="")
 ki.loginResult()
 
 ki2= VIPRO.LINE()
@@ -51,9 +51,9 @@ ki6 = VIPRO.LINE()
 ki6.login(token="token")
 ki6.loginResult()
 
-ki7 = VIPRO.LINE()
-ki7.login(token="token")
-ki7.loginResult()
+#ki7 = VIPRO.LINE()
+#ki7.login(token="token")
+#ki7.loginResult()
 
 #ki8 = VIPRO.LINE()
 #ki8.login(token="token")
@@ -66,7 +66,7 @@ ki7.loginResult()
 #ki10 = VIPRO.LINE() #Ghost
 #ki10.login(token="token")
 #ki10.loginResult()
-print "═══「vipro login success」═══"
+print "═══「Phantom login success」═══"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMenu="""╔═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══╗
@@ -152,20 +152,20 @@ helpMessage="""╔═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══�
 """  
 helpMedia="""╔═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══╗
 ╠╦═══════════════
-║║🔘 Youtube 「 text」
-║║🔘 Youtubesearch 「 user」
-║║🔘 Ig 「 name」
-║║🔘 Gimage 
-║║🔘 Image 「 text」
-║║🔘 Google 「 text」
-║║🔘 Micadd @
-║║🔘 Micdel @
-║║🔘 Miclist
-║║🔘 Picturl @
-║║🔘 Coverurl @
-║║🔘 Copy @
-║║🔘 Getname @
-║║🔘 Getinfo @
+║║ Youtube 「 text」
+║║ Youtubesearch 「 user」
+║║ Ig 「 name」
+║║ Gimage 
+║║ Image 「 text」
+║║ Google 「 text」
+║║ Micadd @
+║║ Micdel @
+║║ Miclist
+║║ Picturl @
+║║ Coverurl @
+║║ Copy @
+║║ Getname @
+║║ Getinfo @
 ║║🔘 pict @️
 ║║🔘 Getcontact @
 ║║🔘 Getvid @
@@ -206,12 +206,12 @@ helpMedia="""╔═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══╗
 """
 helpFun = """╔═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══╗
 ╠╦═══════════════
-║║🔰 sider:「 text」
-║║🔰 tagme:「 text」
-║║🔰 welcome:「 text」
-║║🔰 left:「 text」
-║║🔰 message set:「 text」
-║║🔰 cekresponse
+║║ sider:「 text」
+║║ tagme:「 text」
+║║ welcome:「 text」
+║║ left:「 text」
+║║ message set:「 text」
+║║ cekresponse
 ╠╩═══════════════
 ╚═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══╝
 """
@@ -329,8 +329,8 @@ translateMessage ="""
 ╠╩═══════════════
 ╚═══「ᎮᏂᏗᏁᏖᎧᎷ ᎶᏂᎧᏕᏖ」═══╝
 """
-KAC=[ki]
-DEF=[ki]
+KAC=[ki,ki2,ki3,ki4,ki5,ki6]
+DEF=[ki,ki2,ki3,ki4,ki5,ki6]
 #mid = vipro.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -338,12 +338,12 @@ ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki6mid = ki6.getProfile().mid
-ki7mid = ki7.getProfile().mid
-ki8mid = ki8.getProfile().mid
+#ki7mid = ki7.getProfile().mid
+#ki8mid = ki8.getProfile().mid
 #ki9mid = ki9.getProfile().mid
 #ki10mid = ki10.getProfile().mid
 #Smid = owner.getProfile().mid
-Bots=[kimid,"u67acbba40f5d7983bd60c200e92456e9"]
+Bots=[kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,"u67acbba40f5d7983bd60c200e92456e9"]
 admin=[kimid,"u67acbba40f5d7983bd60c200e92456e9"]
 creator=["u67acbba40f5d7983bd60c200e92456e9"]
 admsa=["u67acbba40f5d7983bd60c200e92456e9"]
@@ -399,11 +399,11 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-contact = ki7.getProfile()
-backup = ki7.getProfile()
-backup.displayName = contact.displayName
-backup.statusMessage = contact.statusMessage
-backup.pictureStatus = contact.pictureStatus
+#contact = ki7.getProfile()
+#backup = ki7.getProfile()
+#backup.displayName = contact.displayName
+#backup.statusMessage = contact.statusMessage
+#backup.pictureStatus = contact.pictureStatus
 
 #contact = ki8.getProfile()
 #backup = ki8.getProfile()
